@@ -12,7 +12,8 @@ Through this project, I explored the full pipeline of an object detection task, 
 
 Motivation
 
-Traffic lights are one of the most important visual cues for pedestrians and drivers.
+Traffic lights are one of the most important visual cues for pedestrians especially for blind people. 
+This project is intended to support visually impaired pedestrians.
 In particular, recognizing pedestrian signals correctly can be useful for building assistive systems for safer road crossing.
 
 I started this project to understand how computer vision can be applied to real-world safety problems, and to gain hands-on experience with training a custom object detection model.
@@ -20,7 +21,7 @@ I started this project to understand how computer vision can be applied to real-
 ⸻
 
 Features
-	•	Detect traffic lights in images or video
+	•	Detect traffic lights in video by smartphone camera
 	•	Train a custom object detection model with labeled data
 	•	Apply YOLO-based real-time detection
 	•	Build a foundation for future pedestrian safety applications
@@ -43,7 +44,7 @@ The model was trained on a custom dataset prepared for traffic light detection.
 The dataset includes labeled images of traffic lights collected and organized for object detection training.
 
 Data Preparation Process
-	1.	Collected traffic light image data
+	1.	Collected traffic light image data from RoboFlow open dataset
 	2.	Labeled objects with bounding boxes
 	3.	Organized the dataset into training/validation sets
 	4.	Exported the dataset in YOLO format
@@ -113,6 +114,8 @@ This project still has several limitations:
 	•	the current model focuses on detection and does not fully interpret complex traffic signal logic.
 
 These limitations suggest directions for future improvement.
+=> That's why I couldn't use for my project. We were supposed that a person hanging their phone in front of them.
+And the app anaylize Traffic Light. But the Traffic Light will be small so the app can't caught it.
 
 ⸻
 
